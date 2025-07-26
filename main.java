@@ -20,5 +20,8 @@ public class main {
         catch(ArithmeticException e) {
             System.out.println("YOU CAN'T DIVIDE BY ZERO!");
         }
+        public int sum(int a, int b){
+        return a+b;
     }
+    System.out.println("Sum:", +sum(10,20));
 }
