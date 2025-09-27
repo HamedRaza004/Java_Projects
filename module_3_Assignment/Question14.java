@@ -1,9 +1,9 @@
 import java.io.FileInputStream;
 import java.io.IOException;
 
-public class SET_3_Question_1 {
+public class Question14 {
     public static void main(String[] args) {
-        try (FileInputStream fis = new FileInputStream("input.txt")) {
+        try (FileInputStream fis = new FileInputStream("C:\\Users\\hamed\\Documents\\javax\\input.txt")) {
             int i;
             while ((i = fis.read()) != -1) {
                 System.out.print((char) i);
@@ -13,3 +13,4 @@ public class SET_3_Question_1 {
         }
     }
 }
+
